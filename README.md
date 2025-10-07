@@ -4,7 +4,9 @@
 Write your W1 activity Devlog here.
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+### R G B (color channels) values are continous values between 0.0-1.0, so we need for use float becuase of the decimals.
+### _bounces is an int because it's counting how many times the balls has bounced, which can only be in whole numbers (0,1,2). Float is not needed because a ball cannot bounces 1.3 times.
+### I'm not sure what the original code looked like...I just know I fixed it and now it worked_
 
 ## Open-Source Assets
 ### W1
