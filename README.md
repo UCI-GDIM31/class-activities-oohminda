@@ -10,13 +10,18 @@ Write your W1 activity Devlog here.
 
 ### W3
 ### I am really sick so I couldn't make it to class this week. A main issue I ran into is that no matter what I tried, the text wouldn't show up on the screen. 
-### Table 9: Inputs (parameters)
+### Table 12: Inputs (parameters)
 ### int choice – which option the player picked (0 = talk, 1 = ask about secret)
 ### int friendship — current friendship level (e.g., 0–100).
 ### bool knowsSecret — true if the player knows the character’s secret.
 ### Output (return type)
 ### string — the line of text the character says back.
 ### I think this method takes the minimum inputs required to choose a response and returns the exact thing the UI needs to display.
+
+### W4
+### table 12: line 17 checks if player is on the ground. _isGrounded is a member variable, and the type is boolean (bool). This line does not call a method.
+### line 28 means that if the player is grounded and is pressing space, then the player will jump
+### line 32 means that if the player is in the air (jumping), then it sets a limit to how high the player can go so players can't double jump
 
 ## Open-Source Assets
 ### W1
