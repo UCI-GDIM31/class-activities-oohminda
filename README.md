@@ -23,6 +23,11 @@ Write your W1 activity Devlog here.
 ### line 28 means that if the player is grounded and is pressing space, then the player will jump
 ### line 32 means that if the player is in the air (jumping), then it sets a limit to how high the player can go so players can't double jump
 
+### W7
+### Step 2 was broken because it only rotated around one axis, so the Muskrat could only move with W/S even though the professor said it should already move with all four WASD keys.
+### The code was missing a second rotation using the Muskrat’s up direction, so A/D literally did nothing.
+### https://docs.google.com/document/d/1IylDQERjaHFTe0iujtb1wrDeqB5LsydmYS_Xw-xTtrc/edit?usp=sharing
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
