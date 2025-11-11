@@ -46,7 +46,14 @@ public class MuskratW7 : MonoBehaviour
         // You might want to look below Step 3 for an example :D
         
         float leftright = Input.GetAxis("Horizontal");
-        
+        Vector3 upAxis = transform.TransformDirection(Vector3.up);
+        transform.RotateAround(
+            _sphereTransform.position,
+            upAxis,
+            leftright * _rotationSpeed * Time.deltaTime
+        );
+
+
 
 
         // STEP 3 -------------------------------------------------------------
